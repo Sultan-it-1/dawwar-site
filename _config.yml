@@ -1,0 +1,5 @@
+# GitHub Pages settings for the public site (privacy policy, later the landing page).
+# Copy this folder to the root of a public repository and turn on Pages (Settings > Pages > Deploy from branch: main, / root).
+title: Dawwar · دوّار
+theme: jekyll-theme-primer
+exclude: [README.md]
