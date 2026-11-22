@@ -9,7 +9,7 @@ title: Dawwar · دوّار
 محوّل ملفات لويندوز يعمل على جهازك: اسحب ملفًا، واضغط Shift، ثم أفلته على الصيغة التي تريدها. صور وفيديو وصوت وPDF ومستندات وملفات مضغوطة، دون رفع ودون إنترنت.
 
 - [سياسة الخصوصية](privacy)
-- الدعم: ‹بريد الدعم›
+- الدعم: [support@dawwarapp.com](mailto:support@dawwarapp.com)
 
 </div>
 
@@ -22,6 +22,6 @@ title: Dawwar · دوّار
 A file converter for Windows that works on your PC: drag a file, press Shift, and drop it on the format you want. Pictures, video, audio, PDF, documents and archives, with no upload and no internet.
 
 - [Privacy policy](privacy)
-- Support: ‹support e-mail›
+- Support: [support@dawwarapp.com](mailto:support@dawwarapp.com)
 
 </div>

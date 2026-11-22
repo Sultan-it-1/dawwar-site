@@ -71,7 +71,7 @@ permalink: /privacy
 
 ## التواصل
 
-للأسئلة عن الخصوصية: ‹بريد الدعم›
+للأسئلة عن الخصوصية: [support@dawwarapp.com](mailto:support@dawwarapp.com)
 
 </div>
 
@@ -145,6 +145,6 @@ If anything in this policy changes, we will update this page and the date at the
 
 ## Contact
 
-Privacy questions: ‹support e-mail›
+Privacy questions: [support@dawwarapp.com](mailto:support@dawwarapp.com)
 
 </div>
