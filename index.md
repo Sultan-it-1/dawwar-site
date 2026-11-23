@@ -25,3 +25,7 @@ A file converter for Windows that works on your PC: drag a file, press Shift, an
 - Support: [support@dawwarapp.com](mailto:support@dawwarapp.com)
 
 </div>
+
+---
+
+<p align="center">© 2026 Mihwar</p>
