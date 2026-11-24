@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+document.documentElement.classList.add("js");
+/* Language: a choice made with the language link wins, then the saved choice, then the device's language. */
+(function(){try{var here="ar",k="dw-lang",q=new URLSearchParams(location.search).get("lang");
+if(q==="ar"||q==="en"){localStorage.setItem(k,q);history.replaceState(null,"",location.pathname+location.hash)}
+if(navigator.webdriver||/bot|crawl|spider|facebookexternalhit|whatsapp|preview|lighthouse/i.test(navigator.userAgent))return;
+var d=((navigator.languages&&navigator.languages[0])||navigator.language||"en").toLowerCase().indexOf("ar")===0?"ar":"en";
+var want=localStorage.getItem(k)||d;if(want!==here)location.replace("en/"+location.hash)}catch(e){}})();
+</script>
+<title>دوّار · محوّل ملفات لويندوز يعمل على جهازك</title>
+<meta name="description" content="حوّل أي ملف وأنت تسحبه: اضغط Shift أثناء السحب، واختر الصيغة من العجلة. صور وفيديو وصوت وPDF ومستندات، وكل ذلك على جهازك، دون رفع ودون إنترنت.">
+<link rel="canonical" href="https://dawwarapp.com/">
+<link rel="alternate" hreflang="ar" href="https://dawwarapp.com/">
+<link rel="alternate" hreflang="en" href="https://dawwarapp.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://dawwarapp.com/en/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="دوّار · محوّل ملفات لويندوز يعمل على جهازك">
+<meta property="og:description" content="حوّل أي ملف وأنت تسحبه: اضغط Shift أثناء السحب، واختر الصيغة من العجلة. صور وفيديو وصوت وPDF ومستندات، وكل ذلك على جهازك، دون رفع ودون إنترنت.">
+<meta property="og:url" content="https://dawwarapp.com/">
+<meta property="og:image" content="https://dawwarapp.com/assets/dawwar-512.png">
+<meta property="og:locale" content="ar_AR">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0c0d10">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/dawwar-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/site.css?v=243800a6">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="logo" viewBox="0 0 100 100"><path fill="#4f8cff" d="M26.63 6.93A49 49 0 0 1 73.37 6.93L61.36 27.73A25 25 0 0 0 38.64 27.73Z"/><path fill="#2bb673" d="M75.62 8.23A49 49 0 0 1 98.98 48.70L74.97 48.70A25 25 0 0 0 63.61 29.03Z"/><path fill="#f5a524" d="M98.98 51.30A49 49 0 0 1 75.62 91.77L63.61 70.97A25 25 0 0 0 74.97 51.30Z"/><path fill="#4f8cff" d="M73.37 93.07A49 49 0 0 1 26.63 93.07L38.64 72.27A25 25 0 0 0 61.36 72.27Z"/><path fill="#2bb673" d="M24.38 91.77A49 49 0 0 1 1.02 51.30L25.03 51.30A25 25 0 0 0 36.39 70.97Z"/><path fill="#f5a524" d="M1.02 48.70A49 49 0 0 1 24.38 8.23L36.39 29.03A25 25 0 0 0 25.03 48.70Z"/><circle cx="50" cy="50" r="22.6" fill="#1a1b20"/>
+<path d="M42.34 56.43A10 10 0 1 1 58.66 55" fill="none" stroke="#fff" stroke-width="4.2" stroke-linecap="round"/>
+<path d="M55.9 60.2 63.2 57.6 54.2 52.4Z" fill="#fff" stroke="#fff" stroke-width="1" stroke-linejoin="round"/></symbol></svg>
+<a class="skip" href="#main">انتقل إلى المحتوى</a>
+
+<header class="nav" id="top">
+  <a class="brand" href="./" aria-label="دوّار">
+    <svg class="brand__logo" viewBox="0 0 100 100" aria-hidden="true"><use href="#logo"/></svg>
+    <span>دوّار</span>
+  </a>
+  <nav class="nav__links" aria-label="دوّار">
+    <a href="#keys">العجلات</a>
+    <a href="#formats">الصيغ</a>
+    <a href="#tools">الأدوات</a>
+    <a href="#arabic">العربية</a>
+    <a href="#privacy">الخصوصية</a>
+  </nav>
+  <div class="nav__end">
+    <a class="lang" href="en/?lang=en" lang="en" hreflang="en">English</a>
+    <a class="btn btn--sm" href="https://apps.microsoft.com/detail/9mz4pdz6klw6?hl=ar&amp;cid=dawwarapp-ar" rel="noopener">حمّل دوّار</a>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="hero__copy">
+    <p class="eyebrow"><i></i>محوّل ملفات لويندوز · يعمل دون إنترنت</p>
+    <h1><span class="h1__l">حوّل أي ملف</span> <span class="h1__l">وأنت <em>تسحبه.</em></span></h1>
+    <p class="hero__sub">اسحب ملفًا، واضغط Shift، ثم أفلته على الصيغة التي تريدها. صور وفيديو وصوت وPDF ومستندات، وكل ذلك على جهازك.</p>
+    <div class="hero__cta">
+      <a class="btn" href="https://apps.microsoft.com/detail/9mz4pdz6klw6?hl=ar&amp;cid=dawwarapp-ar" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg><span>حمّله من متجر مايكروسوفت</span></a>
+      <a class="btn btn--ghost" href="#formats"><span>ماذا يدعم؟</span><svg class="flip-rtl" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a>
+    </div>
+    <ul class="facts"><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>مجاني</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>ويندوز 10 و11</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>دون حساب</li></ul>
+  </div>
+
+  <div class="hero__demo">
+    <div class="stage" id="stage" role="group" aria-label="عرض تفاعلي لعجلة دوّار">
+      <div class="stage__files" id="files"></div>
+      <div class="wheel" id="wheel"><div class="wheel__in"><svg viewBox="-320 -320 640 640" role="group"></svg></div></div>
+      <div class="ghost" id="ghost" aria-hidden="true"></div>
+      <svg class="cursor" id="cursor" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 3.2 19 11.4l-6 1.5-2.9 5.6z"/></svg>
+      <div class="stage__keys">
+        <button class="keycap" type="button" data-cat="convert" data-key="Shift"><kbd lang="en" dir="ltr">Shift</kbd><span>تحويل</span></button>
+        <button class="keycap" type="button" data-cat="tools" data-key="Ctrl"><kbd lang="en" dir="ltr">Ctrl</kbd><span>أدوات</span></button>
+        <button class="keycap" type="button" data-cat="actions" data-key="Alt"><kbd lang="en" dir="ltr">Alt</kbd><span>إجراءات</span></button>
+      </div>
+      <div class="toasts" id="toasts" aria-live="off"></div>
+    </div>
+    <div class="under">
+      <ol class="steps" id="steps"><li data-step="1"><b>1</b><span>اسحب ملفًا</span></li><li data-step="2"><b>2</b><span>اضغط Shift</span></li><li data-step="3"><b>3</b><span>أفلته على الصيغة</span></li></ol>
+      <p class="hint" id="hint">اسحب ملفًا، أو حدّده واضغط Shift</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="keys">
+  <header class="sec__head" data-reveal>
+    <h2>ثلاث عجلات بثلاثة مفاتيح</h2>
+    <p>اضغط المفتاح أثناء السحب، وبدّل بين العجلات متى شئت. جرّب الآن: اضغط Shift أو Ctrl أو Alt على لوحة مفاتيحك.</p>
+  </header>
+  <div class="keys__grid">
+    <article class="keycard" data-cat="convert" data-reveal style="--i:0">
+      <div class="keycard__arc" aria-hidden="true"></div>
+      <button class="keycap keycap--xl" type="button" data-cat="convert" data-key="Shift" aria-label="Shift: تحويل"><kbd lang="en" dir="ltr">Shift</kbd></button>
+      <h3>تحويل</h3>
+      <p>صور، وفيديو، وصوت، وPDF، ومستندات، وعروض تقديمية، وجداول بيانات، وترجمات، وملفات مضغوطة.</p>
+      <ul class="chips" dir="ltr" lang="en"><li>HEIC → JPG</li><li>MOV → MP4</li><li>DOCX → PDF</li><li>XLSX → CSV</li></ul>
+    </article>
+    <article class="keycard" data-cat="tools" data-reveal style="--i:1">
+      <div class="keycard__arc" aria-hidden="true"></div>
+      <button class="keycap keycap--xl" type="button" data-cat="tools" data-key="Ctrl" aria-label="Ctrl: أدوات"><kbd lang="en" dir="ltr">Ctrl</kbd></button>
+      <h3>أدوات</h3>
+      <p>ضغط، وتغيير الأبعاد، وقص، ودمج، وتقسيم، وتدوير، وعلامة مائية، وحماية ملفات PDF وفتحها، وغير ذلك.</p>
+      <ul class="chips"><li>ضغط</li><li>قص</li><li>دمج PDF</li><li>توقيع</li><li>OCR</li></ul>
+    </article>
+    <article class="keycard" data-cat="actions" data-reveal style="--i:2">
+      <div class="keycard__arc" aria-hidden="true"></div>
+      <button class="keycap keycap--xl" type="button" data-cat="actions" data-key="Alt" aria-label="Alt: إجراءات"><kbd lang="en" dir="ltr">Alt</kbd></button>
+      <h3>إجراءات</h3>
+      <p>إرسال الملف مباشرة إلى ChatGPT أو Claude أو واتساب أو تيليجرام أو أي تطبيق تختاره، والنسخ، والنقل، ونسخ المسار.</p>
+      <ul class="chips"><li>مشاركة</li><li>رف عائم</li><li>نسخ المسار</li><li>الطرفية</li></ul>
+    </article>
+  </div>
+</section>
+
+<section class="sec sec--wide" id="formats">
+  <header class="sec__head sec__head--center" data-reveal>
+    <h2>كل ملفاتك، في عجلة واحدة</h2>
+    <p>تتغيّر العجلة حسب الملف الذي تسحبه، فلا ترى إلا الصيغ التي تناسبه.</p>
+  </header>
+  <div class="orbit" id="orbit" aria-hidden="true">
+    <div class="orbit__hub"><svg viewBox="0 0 100 100"><use href="#logo"/></svg></div>
+  </div>
+  <div class="fgrid">
+    <article class="fcard" data-reveal style="--i:0">
+      <h3>الصور</h3>
+      <ul class="fmt" dir="ltr" lang="en"><li>JPG</li><li>PNG</li><li>WebP</li><li>HEIC</li><li>AVIF</li><li>TIFF</li><li>BMP</li><li>GIF</li><li>ICO</li><li>SVG</li><li>PSD</li><li>RAW</li></ul>
+    </article>
+    <article class="fcard" data-reveal style="--i:1">
+      <h3>الفيديو</h3>
+      <ul class="fmt" dir="ltr" lang="en"><li>MP4</li><li>MOV</li><li>MKV</li><li>WebM</li><li>AVI</li><li>WMV</li><li>GIF</li></ul>
+    </article>
+    <article class="fcard" data-reveal style="--i:2">
+      <h3>الصوت</h3>
+      <ul class="fmt" dir="ltr" lang="en"><li>MP3</li><li>M4A</li><li>WAV</li><li>FLAC</li><li>OGG</li><li>Opus</li><li>AIFF</li><li>WMA</li></ul>
+    </article>
+    <article class="fcard" data-reveal style="--i:0">
+      <h3>PDF <small>منه وإليه</small></h3>
+      <ul class="fmt" dir="ltr" lang="en"><li>Word</li><li>Excel</li><li>PowerPoint</li><li>Markdown</li><li>TXT</li><li>JPG</li><li>PNG</li></ul>
+    </article>
+    <article class="fcard" data-reveal style="--i:1">
+      <h3>المستندات</h3>
+      <ul class="fmt" dir="ltr" lang="en"><li>DOCX</li><li>DOC</li><li>ODT</li><li>RTF</li><li>Markdown</li><li>HTML</li><li>TXT</li><li>EPUB</li></ul>
+    </article>
+    <article class="fcard" data-reveal style="--i:2">
+      <h3>العروض</h3>
+      <ul class="fmt" dir="ltr" lang="en"><li>PPTX</li><li>PPT</li><li>ODP</li></ul>
+    </article>
+    <article class="fcard" data-reveal style="--i:0">
+      <h3>الجداول</h3>
+      <ul class="fmt" dir="ltr" lang="en"><li>XLSX</li><li>XLS</li><li>ODS</li><li>CSV</li><li>JSON</li></ul>
+    </article>
+    <article class="fcard" data-reveal style="--i:1">
+      <h3>الترجمات</h3>
+      <ul class="fmt" dir="ltr" lang="en"><li>SRT</li><li>VTT</li><li>ASS</li></ul>
+    </article>
+    <article class="fcard" data-reveal style="--i:2">
+      <h3>الملفات المضغوطة</h3>
+      <ul class="fmt" dir="ltr" lang="en"><li>ZIP</li><li>7z</li><li>RAR</li><li>TAR</li><li>TAR.GZ</li></ul>
+    </article>
+  </div>
+</section>
+
+<section class="sec" id="tools">
+  <header class="sec__head" data-reveal>
+    <h2>وأكثر من التحويل</h2>
+    <p>عجلة الأدوات تعرف نوع ملفك: ما تحتاجه لملف PDF غير ما تحتاجه لمقطع فيديو.</p>
+  </header>
+  <div class="bento">
+    <article class="tile" data-reveal style="--i:0">
+      <div class="viz viz-pages" aria-hidden="true"><i>1</i><i>2</i><i>3</i><i>4</i></div>
+      <span class="tag">PDF</span>
+      <h3>رتّب الصفحات بالسحب</h3>
+      <p>مع التدوير والحذف والتراجع، ومن عدة ملفات معًا.</p>
+    </article>
+    <article class="tile" data-reveal style="--i:1">
+      <div class="viz viz-redact" aria-hidden="true"><div class="sheet"><p class="sk w70"></p><p class="line"><span>الرمز السري:</span> <b><em lang="en" dir="ltr">4827</em></b></p><p class="sk w90"></p><p class="sk w50"></p></div></div>
+      <span class="tag">PDF</span>
+      <h3>تعتيم حقيقي</h3>
+      <p>النص تحت المربع يُحذف من الملف نهائيًا، ولا يُغطّى فقط.</p>
+    </article>
+    <article class="tile" data-reveal style="--i:2">
+      <div class="viz viz-sign" aria-hidden="true"><svg viewBox="0 0 220 90"><path class="ink" d="M18 58c10-26 22-42 30-40 9 3-8 42 2 44 9 1 14-30 24-30 8 0 2 26 10 27 8 0 12-22 22-23 7 0 4 20 12 20 9 0 16-18 30-22 12-3 30 2 54-8"/><path class="rule" d="M14 74h192"/></svg></div>
+      <span class="tag">PDF</span>
+      <h3>وقّع ملفاتك</h3>
+      <p>ارسم توقيعك، أو اكتبه، أو اختر صورته.</p>
+    </article>
+    <article class="tile" data-reveal style="--i:0">
+      <div class="viz viz-faces" aria-hidden="true"><div class="photo"><span class="person p1"><i></i></span><span class="person p2"><i></i></span></div></div>
+      <span class="tag">الصور</span>
+      <h3>أخفِ الوجوه تلقائيًا</h3>
+      <p>تغبيش الوجوه باكتشاف الوجوه المدمج في ويندوز، وحذف الموقع وبيانات الكاميرا.</p>
+    </article>
+    <article class="tile" data-reveal style="--i:1">
+      <div class="viz viz-trim" aria-hidden="true"><div class="strip"><div class="range"><s></s><s></s></div></div></div>
+      <span class="tag">الفيديو</span>
+      <h3>اقتطع ما تريد</h3>
+      <p>اقتطاع، وتقسيم، وقص الإطار، وتغيير السرعة، بتسريع من معالج الرسوميات حين يتوفر.</p>
+    </article>
+    <article class="tile" data-reveal style="--i:2">
+      <div class="viz viz-denoise" aria-hidden="true"><i style="--c:22%;--n:34%;--d:0ms"></i><i style="--c:45%;--n:94%;--d:28ms"></i><i style="--c:64%;--n:96%;--d:56ms"></i><i style="--c:77%;--n:96%;--d:84ms"></i><i style="--c:80%;--n:96%;--d:112ms"></i><i style="--c:72%;--n:96%;--d:140ms"></i><i style="--c:55%;--n:84%;--d:168ms"></i><i style="--c:33%;--n:58%;--d:196ms"></i><i style="--c:34%;--n:55%;--d:224ms"></i><i style="--c:54%;--n:71%;--d:252ms"></i><i style="--c:67%;--n:80%;--d:280ms"></i><i style="--c:71%;--n:96%;--d:308ms"></i><i style="--c:66%;--n:96%;--d:336ms"></i><i style="--c:54%;--n:96%;--d:364ms"></i><i style="--c:38%;--n:76%;--d:392ms"></i><i style="--c:23%;--n:57%;--d:20ms"></i><i style="--c:36%;--n:66%;--d:48ms"></i><i style="--c:45%;--n:71%;--d:76ms"></i><i style="--c:48%;--n:70%;--d:104ms"></i><i style="--c:45%;--n:63%;--d:132ms"></i><i style="--c:39%;--n:53%;--d:160ms"></i><i style="--c:32%;--n:83%;--d:188ms"></i><i style="--c:25%;--n:72%;--d:216ms"></i><i style="--c:25%;--n:68%;--d:244ms"></i><i style="--c:28%;--n:67%;--d:272ms"></i><i style="--c:30%;--n:65%;--d:300ms"></i><i style="--c:29%;--n:60%;--d:328ms"></i><i style="--c:28%;--n:55%;--d:356ms"></i><i style="--c:26%;--n:49%;--d:384ms"></i><i style="--c:24%;--n:43%;--d:12ms"></i><i style="--c:22%;--n:37%;--d:40ms"></i><i style="--c:25%;--n:77%;--d:68ms"></i><i style="--c:28%;--n:76%;--d:96ms"></i><i style="--c:32%;--n:76%;--d:124ms"></i></div>
+      <span class="tag">الصوت</span>
+      <h3>نظّف الصوت</h3>
+      <p>توحيد المستوى، وإزالة الضوضاء والصمت.</p>
+    </article>
+  </div>
+  <div class="more" data-reveal>
+    <span class="more__label">ومعها</span>
+    <ul><li>ضغط الصور والفيديو وPDF</li><li>دمج PDF وتقسيمه</li><li>نص قابل للبحث من الصفحات الممسوحة (OCR)</li><li>مقارنة ملفين PDF</li><li>حماية بكلمة مرور</li><li>علامة مائية</li><li>مقاسات جاهزة لوسائل التواصل</li><li>قراءة رموز QR وإنشاؤها</li><li>GIF أو فيديو من الصور</li><li>ترجمة عربية على الفيديو</li><li>نغمة آيفون</li><li>فك ضغط RAR و7z</li></ul>
+  </div>
+</section>
+
+<section class="sec share" id="share">
+  <div class="share__copy" data-reveal>
+    <h2>أرسل الملف مباشرة إلى تطبيقاتك</h2>
+    <p class="lead">في عجلة الإجراءات اختر «مشاركة»، فتنفتح دائرة فيها تطبيقاتك بأيقوناتها.</p>
+    <dl class="points"><div><dt>تطبيقات الذكاء الاصطناعي</dt><dd>يوضع الملف في خانة المحادثة مباشرة، وأنت تكتب رسالتك وترسل.</dd></div><div><dt>تطبيقات المراسلة</dt><dd>تُفتح والملف منسوخ، فتختار المحادثة وتلصقه، حتى لا يذهب إلى الشخص الخطأ.</dd></div><div><dt>تطبيقاتك أنت</dt><dd>أضف أي تطبيق من قائمة ابدأ، حتى تسعة، ورتّبها كما تحب.</dd></div></dl>
+  </div>
+  <figure class="shot" data-reveal style="--i:1">
+    <img src="assets/shots/share-ar.png" width="1556" height="950" loading="lazy" decoding="async" alt="لقطة من دوّار: عجلة الإجراءات وداخلها دائرة المشاركة، وفيها ChatGPT وClaude وواتساب وتيليجرام وتيمز ومشاركة ويندوز.">
+    <figcaption>لقطة من التطبيق</figcaption>
+  </figure>
+</section>
+
+<section class="sec" id="arabic">
+  <header class="sec__head" data-reveal>
+    <h2>مصمَّم للعربية</h2>
+    <p>واجهة عربية كاملة من اليمين إلى اليسار، ومحرّكات تفهم النص العربي.</p>
+  </header>
+  <div class="ar__grid">
+    <article class="arcard" data-reveal style="--i:0">
+      <div class="arcard__screen" data-morph="encoding">
+        <span class="arcard__label">ملف نصي قديم</span>
+        <p class="arcard__text" lang="ar" dir="rtl" aria-hidden="true"></p>
+        <span class="arcard__state">قبل</span>
+      </div>
+      <h3>يُصلح الحروف التي تظهر رموزًا</h3>
+      <p>ملفات النص والترجمة وCSV القديمة (ترميز Windows-1256) تتحول إلى UTF-8 سليم.</p>
+    </article>
+    <article class="arcard" data-reveal style="--i:1">
+      <div class="arcard__screen" data-morph="reversed">
+        <span class="arcard__label">نص مستخرج من PDF</span>
+        <p class="arcard__text" lang="ar" dir="rtl" aria-hidden="true"></p>
+        <span class="arcard__state">قبل</span>
+      </div>
+      <h3>يقرأ PDF بالترتيب الصحيح</h3>
+      <p>حتى من الملفات التي تخزّن النص العربي معكوسًا. والصفحات الممسوحة تُقرأ بالتعرّف الضوئي.</p>
+    </article>
+    <article class="arcard" data-reveal style="--i:2">
+      <div class="arcard__screen" data-morph="joined">
+        <span class="arcard__label">ترجمة على الفيديو</span>
+        <p class="arcard__text" lang="ar" dir="rtl" aria-hidden="true"></p>
+        <span class="arcard__state">قبل</span>
+      </div>
+      <h3>ترجمة بحروف متصلة</h3>
+      <p>الترجمة المدموجة في الفيديو تظهر حروفها العربية متصلة كما يجب.</p>
+    </article>
+  </div>
+</section>
+
+<section class="sec privacy" id="privacy">
+  <div class="zeros" data-reveal>
+    <div class="zero" style="--i:0"><b lang="en">0</b><span>ملف مرفوع</span></div><div class="zero" style="--i:1"><b lang="en">0</b><span>حساب مطلوب</span></div><div class="zero" style="--i:2"><b lang="en">0</b><span>أداة تتبّع</span></div>
+  </div>
+  <header class="sec__head sec__head--center" data-reveal>
+    <h2>ملفاتك لا تغادر جهازك</h2>
+    <p>كل التحويل يتم على جهازك، حتى دون اتصال بالإنترنت.</p>
+    <a class="link" href="privacy">سياسة الخصوصية <svg class="flip-rtl" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a>
+  </header>
+</section>
+
+<section class="sec" id="ways">
+  <header class="sec__head" data-reveal>
+    <h2>لا تحب السحب؟</h2>
+    <p>العجلة نفسها، بأربع طرق أخرى.</p>
+  </header>
+  <div class="ways__grid">
+    <article class="way" data-reveal style="--i:0">
+      <div class="way__top"><kbd class="kbd" lang="en" dir="ltr">Shift</kbd></div>
+      <h3>حدّد واضغط</h3>
+      <p>حدّد الملف واضغط Shift مرة واحدة، فتُفتح العجلة فوقه.</p>
+    </article>
+    <article class="way" data-reveal style="--i:1">
+      <div class="way__top"><span class="way__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8.5 9h7M8.5 12.5h7M8.5 16h4"/></svg></span></div>
+      <h3>الزر الأيمن</h3>
+      <p>انقر بالزر الأيمن واختر «تحويل باستخدام دوّار…».</p>
+    </article>
+    <article class="way" data-reveal style="--i:2">
+      <div class="way__top"><kbd class="kbd" lang="en" dir="ltr">Ctrl</kbd><i class="plus">+</i><kbd class="kbd" lang="en" dir="ltr">Alt</kbd><i class="plus">+</i><kbd class="kbd" lang="en" dir="ltr">D</kbd></div>
+      <h3>من لوحة المفاتيح</h3>
+      <p>حدّد ملفاتك واضغط الاختصار، ثم استخدم الأسهم وEnter.</p>
+    </article>
+    <article class="way" data-reveal style="--i:3">
+      <div class="way__top"><span class="way__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h9m4 0h3M4 17h3m4 0h9M13 4.5v5M7 14.5v5"/></svg></span></div>
+      <h3>على طريقتك</h3>
+      <p>غيّر المفاتيح كلها، ومظهر العجلة وألوانها، من الإعدادات.</p>
+    </article>
+  </div>
+</section>
+
+<section class="sec get" id="get">
+  <div class="get__panel" data-reveal>
+    <svg class="get__logo" viewBox="0 0 100 100" aria-hidden="true"><use href="#logo"/></svg>
+    <h2>جرّب دوّار</h2>
+    <p class="lead">التحميل مجاني من متجر مايكروسوفت.</p>
+    <a class="btn btn--lg" href="https://apps.microsoft.com/detail/9mz4pdz6klw6?hl=ar&amp;cid=dawwarapp-ar" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg><span>حمّله من متجر مايكروسوفت</span></a>
+    <div class="get__info">
+      <div>
+        <h3>ما يحتاجه جهازك</h3>
+        <ul><li>ويندوز 10 (الإصدار 2004 أو أحدث) أو ويندوز 11، بنظام 64 بت</li><li>ذاكرة 4 جيجابايت، ويُفضَّل 8</li><li>نحو 650 ميجابايت على القرص</li></ul>
+      </div>
+      <div>
+        <h3>ملاحظات</h3>
+        <ul><li>بعض تحويلات Word وExcel وPowerPoint تكون أدق إذا كان Microsoft Office مثبّتًا. ودونه يستخدم دوّار محرّكاته المدمجة.</li><li>حفظ الصور بصيغة HEIC يحتاج إضافة «HEVC Video Extensions» من متجر مايكروسوفت.</li><li>التعرّف على النص العربي يحتاج حزمة اللغة العربية في ويندوز.</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <a class="brand" href="#top">
+    <svg class="brand__logo" viewBox="0 0 100 100" aria-hidden="true"><use href="#logo"/></svg>
+    <span>دوّار</span>
+  </a>
+  <p>© 2026 Mihwar. جميع الحقوق محفوظة.</p>
+  <nav aria-label="الدعم">
+    <a href="privacy">سياسة الخصوصية</a>
+    <a href="mailto:support@dawwarapp.com">الدعم: <span dir="ltr" lang="en">support@dawwarapp.com</span></a>
+    <a href="en/?lang=en" lang="en" hreflang="en">English</a>
+  </nav>
+</footer>
+
+<script type="application/json" id="dw-data">{"demo":{"cats":{"convert":{"key":"Shift","label":"تحويل"},"tools":{"key":"Ctrl","label":"أدوات"},"actions":{"key":"Alt","label":"إجراءات"}},"files":[{"id":"image","kind":"image","base":"صورة الغلاف","ext":"jpg"},{"id":"pdf","kind":"pdf","base":"تقرير الربع الثالث","ext":"pdf"},{"id":"video","kind":"video","base":"مقطع الرحلة","ext":"mp4"},{"id":"audio","kind":"audio","base":"تسجيل اللقاء","ext":"mp3"}],"convert":{"image":["PNG","WEBP","HEIC","AVIF","TIFF","BMP","GIF","ICO","PDF"],"pdf":["DOCX","XLSX","PPTX","JPG","PNG","TXT","MD","WEBP","TIFF"],"video":["MOV","MKV","WEBM","AVI","WMV","GIF","MP3"],"audio":["M4A","WAV","FLAC","OGG","OPUS","AIFF","WMA"]},"tools":{"image":[{"l":"ضغط","i":"compress"},{"l":"تغيير الأبعاد","i":"resize"},{"l":"قص","i":"crop"},{"l":"استخراج النص","i":"text"},{"l":"قراءة رمز QR","i":"qr"},{"l":"تدوير وقلب","i":"rotate"},{"l":"تعديل","i":"edit"},{"l":"الخصوصية","i":"lock"},{"l":"ZIP","i":"zip"}],"pdf":[{"l":"ضغط","i":"compress"},{"l":"إتاحة البحث (OCR)","i":"search"},{"l":"استخراج الصور","i":"image"},{"l":"الصفحات","i":"page"},{"l":"تعديل","i":"edit"},{"l":"الأمان","i":"lock"},{"l":"إصلاح وأرشفة","i":"wrench"},{"l":"ZIP","i":"zip"}],"video":[{"l":"ضغط","i":"compress"},{"l":"ضغط إلى حجم","i":"target"},{"l":"اقتطاع مقطع","i":"scissors"},{"l":"قص","i":"crop"},{"l":"تقسيم","i":"split"},{"l":"السرعة","i":"speed"},{"l":"الصوت","i":"sound"},{"l":"صور","i":"image"},{"l":"ZIP","i":"zip"}],"audio":[{"l":"ضغط","i":"compress"},{"l":"اقتطاع مقطع","i":"scissors"},{"l":"تقسيم","i":"split"},{"l":"السرعة","i":"speed"},{"l":"مستوى الصوت","i":"sound"},{"l":"نغمة آيفون","i":"bell"},{"l":"بيانات الأغنية","i":"tag"},{"l":"تحسين الصوت","i":"sparkle"},{"l":"ZIP","i":"zip"}]},"actions":[{"id":"share","l":"مشاركة","i":"share"},{"id":"shelf","l":"رف عائم","i":"pin"},{"id":"copyTo","l":"نسخ إلى","i":"copy"},{"id":"moveTo","l":"نقل إلى","i":"move"},{"id":"info","l":"معلومات الملف","i":"info"},{"id":"copyPath","l":"نسخ المسار","i":"link"},{"id":"terminal","l":"الطرفية","i":"terminal"},{"id":"copyFile","l":"نسخ الملف","i":"clipboard"},{"id":"openWith","l":"فتح بواسطة","i":"list"}]},"s":{"label":"عرض تفاعلي لعجلة دوّار","steps":["اسحب ملفًا","اضغط Shift","أفلته على الصيغة"],"hintAuto":"عرض تلقائي. اسحب ملفًا بنفسك لتجرّب","hintIdle":"اسحب ملفًا، أو حدّده واضغط Shift","hintDrag":"والآن اضغط Shift أو Ctrl أو Alt","hintWheel":"أفلت الملف على الخيار","hintPick":"اختر من العجلة، أو Esc للإغلاق","hintTouch":"المس ملفًا ثم اختر من العجلة","converting":"جارٍ التحويل…","working":"جارٍ التنفيذ…","saved":"حُفظ بجانب الأصل","done":"تم","newFile":"ملف جديد"},"rings":[["JPG","PNG","WEBP","HEIC","AVIF","TIFF","BMP","GIF","ICO","SVG","PSD","RAW"],["MP4","MOV","MKV","WEBM","AVI","WMV","GIF","MP3","M4A","WAV","FLAC","OGG","OPUS","AIFF","WMA"],["PDF","DOCX","DOC","ODT","RTF","MD","HTML","TXT","EPUB","PPTX","PPT","ODP","XLSX","XLS","ODS","CSV","JSON","SRT","VTT","ASS","ZIP","7Z","RAR","TAR","TAR.GZ"]],"morph":{"before":"قبل","after":"بعد دوّار"}}</script>
+<script src="assets/site.js?v=243800a6" defer></script>
+</body>
+</html>
